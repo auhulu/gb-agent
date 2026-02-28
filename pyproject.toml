@@ -1,0 +1,13 @@
+[project]
+name = "gb-agent"
+version = "0.1.0"
+requires-python = ">=3.11"
+dependencies = [
+    "anthropic>=0.84.0",
+    "pyboy>=2.7.0",
+    "Pillow>=12.1.1",
+    "numpy>=2.4.2",
+]
+
+[project.scripts]
+gb-agent = "main:main"
